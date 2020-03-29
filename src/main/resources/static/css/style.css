@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+body,html {
+ 		height:100%;
+ 		background-color:#800000;
+		margin:0;
+ 		font-family: 'VT323', monospace;
+ }
+ #userGuess{
+ 	font-size:3vw;
+ }
+ input[type=number]:focus{
+ 	background-color:#00FFFF;
+ 	outline-color:white;
+ }
+  	#container {
+  		color:white;
+  		font-size:5vw;
+  		text-align:center;
+  		padding:10% 0 0 0;
+  		font-weight:bold;
+  }
+  	button{
+  		background-color:#00FFFF;
+  		width:10vw;
+  		font-size:3vw;
+  		font-family: 'VT323', monospace;
+  		margin:2vw 1vw;
+  		padding:0.4vw;
+  		border-radius:10%;
+  		color:black;
+ 	    border: none;
+  		text-align: center;
+ 		text-decoration: none;
+ 		display: inline-block;
+ 		cursor: pointer;
+ 		-webkit-transition-duration: 0.4s;
+ 		transition-duration: 0.4s;
+  	}
+  	button:hover {
+ 		 box-shadow: 0 1.2vw 1.6vw 0 rgba(255,255,255,0.24),0 1.7vw 5vw 0 rgba(255,255,255,0.19);
+}
+	header{
+		position:absolute;
+		top:3vw;
+		left:20vw;
+		color:white;
+		font-size:3vw;
+		font-weight:bold;
+}
+	span{
+		position:absolute;
+		top:0;
+		left:12vw;
+		color:#00FF00;
+		font-size:0;
+		font-weight:bold;
+}
+	footer{
+		position:fixed;
+		font-size:2vw;
+		bottom:0;
+		left:0;
+		color:white;
+		font-style:italic;
+}
+	p {
+		margin:8vw 0 0 2vw;
+  		animation-duration: 3s;
+		animation-name: slide;
+}
+
+@keyframes slide {
+ 	 from {
+  	  font-size:0;
+   	  color:lime;
+  	}
+  	
+  	 to {
+  	  font-size:5vw;
+   	  color:white;
+  }
+}
