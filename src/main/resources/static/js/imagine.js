@@ -1,10 +1,10 @@
-  var min = 0;
-  var max = 100;
-  var counterComputer = 0;
-  var counterGuess = 0;
-  var comPoint = 160;
-  var guessPoint = 160;
-  var randomNumber = Math.floor(Math.random() * 101);
+  let min = 0;
+  let max = 100;
+  let counterComputer = 0;
+  let counterGuess = 0;
+  let comPoint = 160;
+  let guessPoint = 160;
+  let randomNumber = Math.floor(Math.random() * 101);
   randomNumber = parseInt(randomNumber);
 
   function enforceMinMax(el){
